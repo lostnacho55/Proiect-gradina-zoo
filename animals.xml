@@ -1,0 +1,97 @@
+<zoo>
+  <!-- Mammals -->
+  <animal>
+    <name>African Elephant</name>
+    <species>Loxodonta africana</species>
+    <type>Mammal</type>
+    <image>images/elephant.jpg</image>
+    <description>The African Elephant is the largest land animal, known for its intelligence and memory.</description>
+  </animal>
+  <animal>
+    <name>Siberian Tiger</name>
+    <species>Panthera tigris altaica</species>
+    <type>Mammal</type>
+    <image>images/tiger.jpg</image>
+    <description>This big cat lives in snowy forests and is a powerful solitary predator.</description>
+  </animal>
+
+  <!-- Birds -->
+  <animal>
+    <name>Macaw</name>
+    <species>Ara macao</species>
+    <type>Bird</type>
+    <image>images/macaw.jpg</image>
+    <description>A brilliantly colored parrot native to Central and South America.</description>
+  </animal>
+  <animal>
+    <name>Bald Eagle</name>
+    <species>Haliaeetus leucocephalus</species>
+    <type>Bird</type>
+    <image>images/eagle.jpg</image>
+    <description>The national bird of the United States, known for its sharp vision and soaring flight.</description>
+  </animal>
+
+  <!-- Reptiles -->
+  <animal>
+    <name>Komodo Dragon</name>
+    <species>Varanus komodoensis</species>
+    <type>Reptile</type>
+    <image>images/komodo.jpg</image>
+    <description>The world’s largest lizard, found in Indonesia.</description>
+  </animal>
+  <animal>
+    <name>Green Iguana</name>
+    <species>Iguana iguana</species>
+    <type>Reptile</type>
+    <image>images/iguana.jpg</image>
+    <description>A large, tree-dwelling herbivore found throughout Central and South America.</description>
+  </animal>
+
+  <!-- Amphibians -->
+  <animal>
+    <name>Red-Eyed Tree Frog</name>
+    <species>Agalychnis callidryas</species>
+    <type>Amphibian</type>
+    <image>images/frog.jpg</image>
+    <description>Famous for its bulging red eyes and vibrant green body, it’s native to rainforests.</description>
+  </animal>
+  <animal>
+    <name>Axolotl</name>
+    <species>Ambystoma mexicanum</species>
+    <type>Amphibian</type>
+    <image>images/axolotl.jpg</image>
+    <description>A unique salamander that retains its larval features into adulthood.</description>
+  </animal>
+
+  <!-- Fish -->
+  <animal>
+    <name>Clownfish</name>
+    <species>Amphiprioninae</species>
+    <type>Fish</type>
+    <image>images/clownfish.jpg</image>
+    <description>A colorful reef fish that forms symbiotic relationships with sea anemones.</description>
+  </animal>
+  <animal>
+    <name>Great White Shark</name>
+    <species>Carcharodon carcharias</species>
+    <type>Fish</type>
+    <image>images/shark.jpg</image>
+    <description>A powerful ocean predator with a reputation that precedes it.</description>
+  </animal>
+
+  <!-- Insects -->
+  <animal>
+    <name>Monarch Butterfly</name>
+    <species>Danaus plexippus</species>
+    <type>Insect</type>
+    <image>images/monarch.jpg</image>
+    <description>Known for its epic migrations and bright orange wings.</description>
+  </animal>
+  <animal>
+    <name>Atlas Beetle</name>
+    <species>Chalcosoma atlas</species>
+    <type>Insect</type>
+    <image>images/beetle.jpg</image>
+    <description>A large beetle from Southeast Asia, named after the mythical Titan Atlas.</description>
+  </animal>
+</zoo>

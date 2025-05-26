@@ -1,0 +1,66 @@
+<html>
+<head>
+  <title>PAGE NAME - Valeria di Notte Zoo</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="branding">
+      <img src="images/zoo_logo.png" alt="Zoo Logo" class="logo">
+      <span class="site-title">Valeria di Notte Zoo</span>
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="animals.html">Animals</a>
+      <div class="dropdown">
+        <a href="#">Visit & Tickets <span class="arrow">▼</span></a>
+        <div class="dropdown-content">
+          <a href="opening_hours.html">Opening Hours</a>
+          <a href="ticket_pricing.html">Ticket Pricing</a>
+          <a href="how_to_get_there.html">How to Get There</a>
+        </div>
+      </div>
+          <div class="dropdown">
+      <a href="#">About Us <span class="arrow">▼</span></a>
+      <div class="dropdown-content">
+        <a href="our_history.html">Our History</a>
+        <a href="our_mission.html">Our Mission</a>
+        <a href="partnerships.html">Partnerships</a>
+        <a href="contact_us.html">Contact Us</a>
+      </div>
+    </div>
+    </nav>
+  </header>
+
+<main>
+  <h1>Meet Our Animals</h1>
+  <p class="intro-text">
+    Discover the wide variety of species that call Valeria di Notte Zoo home. Choose a category to explore!
+  </p>
+
+  <!-- Animal Type Filter Menu -->
+  <div class="animal-filter">
+    <button data-type="All" class="filter-btn active">All</button>
+    <button data-type="Mammal" class="filter-btn">Mammals</button>
+    <button data-type="Bird" class="filter-btn">Birds</button>
+    <button data-type="Reptile" class="filter-btn">Reptiles</button>
+    <button data-type="Amphibian" class="filter-btn">Amphibians</button>
+    <button data-type="Fish" class="filter-btn">Fish</button>
+    <button data-type="Insect" class="filter-btn">Insects</button>
+  </div>
+
+  <!-- Container for Animal Cards -->
+   <div class="animal-catalog" id="animal-cards"></div>
+</main>
+
+
+<script src="load_animals.js"></script>
+
+
+
+<footer>
+    <p>Copyright &copy; 2025 Valeria di Notte Zoo. All rights reserved.</p>
+</footer>
+</body>
+</html>
