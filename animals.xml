@@ -1,97 +1,517 @@
 <zoo>
-  <!-- Mammals -->
+  <!-- Mammals (12) -->
   <animal>
     <name>African Elephant</name>
     <species>Loxodonta africana</species>
     <type>Mammal</type>
-    <image>images/elephant.jpg</image>
+    <image>https://cdn.britannica.com/72/272-050-E1965E27/African-elephant-Kenya.jpg</image>
     <description>The African Elephant is the largest land animal, known for its intelligence and memory.</description>
   </animal>
   <animal>
     <name>Siberian Tiger</name>
     <species>Panthera tigris altaica</species>
     <type>Mammal</type>
-    <image>images/tiger.jpg</image>
+    <image>https://upload.wikimedia.org/wikipedia/commons/b/b9/P.t.altaica_Tomak_Male.jpg</image>
     <description>This big cat lives in snowy forests and is a powerful solitary predator.</description>
   </animal>
+  <animal>
+    <name>Western Lowland Gorilla</name>
+    <species>Gorilla gorilla gorilla</species>
+    <type>Mammal</type>
+    <image>https://www.thoughtco.com/thmb/dSxZKmB73zZbE3XASxiDCrHp6p4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/portrait-of-western-lowland-gorilla--gorilla-gorilla-gorilla---bayanga--central-african-republic-975069320-5c59bd1bc9e77c000159b216.jpg</image>
+    <description>The largest living primate, known for its intelligence and gentle nature.</description>
+  </animal>
+  <animal>
+    <name>Giant Panda</name>
+    <species>Ailuropoda melanoleuca</species>
+    <type>Mammal</type>
+    <image>https://upload.wikimedia.org/wikipedia/commons/0/0f/Grosser_Panda.JPG</image>
+    <description>This bamboo-eating bear is a global conservation icon.</description>
+  </animal>
+  <animal>
+    <name>Red Kangaroo</name>
+    <species>Macropus rufus</species>
+    <type>Mammal</type>
+    <image>https://upload.wikimedia.org/wikipedia/commons/f/f1/Red_kangaroo_-_melbourne_zoo.jpg</image>
+    <description>The largest marsupial, capable of leaping up to 9 meters in a single bound.</description>
+  </animal>
+  <animal>
+    <name>Polar Bear</name>
+    <species>Ursus maritimus</species>
+    <type>Mammal</type>
+    <image>https://ecos.fws.gov/docs/species_images/doc5025-250px-thumbnail.jpg</image>
+    <description>The largest land carnivore, perfectly adapted to Arctic conditions.</description>
+  </animal>
+  <animal>
+    <name>Ring-tailed Lemur</name>
+    <species>Lemur catta</species>
+    <type>Mammal</type>
+    <image>https://cdn.britannica.com/20/154120-050-78DE15C0/lemur.jpg</image>
+    <description>This charismatic primate from Madagascar uses its striped tail for communication.</description>
+  </animal>
+  <animal>
+    <name>Capybara</name>
+    <species>Hydrochoerus hydrochaeris</species>
+    <type>Mammal</type>
+    <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi1nkrYXY-ijQv5aCxkwooyg2roNFxj0ewJA&amp;s</image>
+    <description>The world's largest rodent, native to South American wetlands.</description>
+  </animal>
+  <animal>
+    <name>Meerkat</name>
+    <species>Suricata suricatta</species>
+    <type>Mammal</type>
+    <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhhzxegfTYx7Bv8gfAejZSnjTMbRDHNUn24A&amp;s</image>
+    <description>These highly social mongooses stand guard to protect their colonies.</description>
+  </animal>
+  <animal>
+    <name>Red Fox</name>
+    <species>Vulpes vulpes</species>
+    <type>Mammal</type>
+    <image>https://cdn.britannica.com/95/206395-050-02B81B30/Red-fox-Vulpes-vulpes.jpg</image>
+    <description>An adaptable canid with remarkable intelligence and hunting skills.</description>
+  </animal>
+  <animal>
+    <name>Two-toed Sloth</name>
+    <species>Choloepus didactylus</species>
+    <type>Mammal</type>
+    <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3LbpF4KT24fDymWFXT-iC3MKvGrTH9XdVYw&amp;s</image>
+    <description>This slow-moving arboreal mammal spends most of its life upside down.</description>
+  </animal>
+  <animal>
+    <name>Platypus</name>
+    <species>Ornithorhynchus anatinus</species>
+    <type>Mammal</type>
+    <image>https://media.australian.museum/media/dd/images/Paul_some_rights_reserved_CC_BY-NC-SA.e889d05.width-1600.643d047.jpg</image>
+    <description>An egg-laying mammal with a duck-like bill and venomous spurs.</description>
+  </animal>
 
-  <!-- Birds -->
+  <!-- Birds (12) -->
   <animal>
     <name>Macaw</name>
     <species>Ara macao</species>
     <type>Bird</type>
-    <image>images/macaw.jpg</image>
+    <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4X2w7DWoS78V_3zjLCTsCY24NIhSx_sxftQ&amp;s</image>
     <description>A brilliantly colored parrot native to Central and South America.</description>
   </animal>
   <animal>
     <name>Bald Eagle</name>
     <species>Haliaeetus leucocephalus</species>
     <type>Bird</type>
-    <image>images/eagle.jpg</image>
+    <image>https://cdn.britannica.com/92/152292-050-EAF28A45/Bald-eagle.jpg</image>
     <description>The national bird of the United States, known for its sharp vision and soaring flight.</description>
   </animal>
+  <animal>
+    <name>Southern Cassowary</name>
+    <species>Casuarius casuarius</species>
+    <type>Bird</type>
+    <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLlhrBflXfi5gOgExBOjmqUHFJgo5bBeS1Cg&amp;s</image>
+    <description>A large flightless bird with a distinctive casque and powerful legs.</description>
+  </animal>
+  <animal>
+    <name>Greater Flamingo</name>
+    <species>Phoenicopterus roseus</species>
+    <type>Bird</type>
+    <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlOApa4SBrMj6DPnOswBeIZ0MTQBI1l0DFOg&amp;s</image>
+    <description>These pink wading birds filter-feed with their specialized bills.</description>
+  </animal>
+  <animal>
+    <name>Snowy Owl</name>
+    <species>Bubo scandiacus</species>
+    <type>Bird</type>
+    <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiTim44ZyPN7B6Cp9zMSI-prAuYRZr7ZHftg&amp;s</image>
+    <description>A magnificent white owl adapted to Arctic regions.</description>
+  </animal>
+  <animal>
+    <name>Peacock</name>
+    <species>Pavo cristatus</species>
+    <type>Bird</type>
+    <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ2Bt1Ms75Gc0zia4G6MRYkvisWfqwRHKHUg&amp;s</image>
+    <description>Known for the male's extravagant tail feathers used in courtship displays.</description>
+  </animal>
+  <animal>
+    <name>Emperor Penguin</name>
+    <species>Aptenodytes forsteri</species>
+    <type>Bird</type>
+    <image>https://observation.org/media/photo/19591807.jpg</image>
+    <description>The tallest and heaviest penguin species, adapted to Antarctic life.</description>
+  </animal>
+  <animal>
+    <name>Toco Toucan</name>
+    <species>Ramphastos toco</species>
+    <type>Bird</type>
+    <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy-ET-PKRzuReXGKUI2GEgYhFWxdi0F8znEw&amp;s</image>
+    <description>This large toucan has an oversized but lightweight bill for reaching fruit.</description>
+  </animal>
+  <animal>
+    <name>Secretary Bird</name>
+    <species>Sagittarius serpentarius</species>
+    <type>Bird</type>
+    <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA05y8wiYI_vePzHpcj1rFEZ1P8qDSRANceg&amp;s</image>
+    <description>A long-legged raptor that hunts snakes by stamping on them.</description>
+  </animal>
+  <animal>
+    <name>Kookaburra</name>
+    <species>Dacelo novaeguineae</species>
+    <type>Bird</type>
+    <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ9SdSxAl3YkpSGgpoxipta6QlG7z63Ajs6w&amp;s</image>
+    <description>This Australian kingfisher is famous for its laughing call.</description>
+  </animal>
+  <animal>
+    <name>Andean Condor</name>
+    <species>Vultur gryphus</species>
+    <type>Bird</type>
+    <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpoUGKMa7UtzMCVmvONFq6F4fCv1we2hOwpw&amp;s</image>
+    <description>One of the world's largest flying birds with a 3-meter wingspan.</description>
+  </animal>
+  <animal>
+    <name>Kiwi</name>
+    <species>Apteryx mantelli</species>
+    <type>Bird</type>
+    <image>https://www.newzealand.com/assets/Tourism-NZ/Rotorua/029-Queen-Charlotte-Track-Chris-McLennan__aWxvdmVrZWxseQo_CropResizeWzE5MDAsMTAwMCw3NSwianBnIl0.jpg</image>
+    <description>New Zealand's flightless national icon with hair-like feathers.</description>
+  </animal>
 
-  <!-- Reptiles -->
+  <!-- Reptiles (12) -->
   <animal>
     <name>Komodo Dragon</name>
     <species>Varanus komodoensis</species>
     <type>Reptile</type>
-    <image>images/komodo.jpg</image>
-    <description>The world’s largest lizard, found in Indonesia.</description>
+    <image>https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Komodo_dragon_with_tongue.jpg/960px-Komodo_dragon_with_tongue.jpg</image>
+    <description>The world's largest lizard, found in Indonesia.</description>
   </animal>
   <animal>
     <name>Green Iguana</name>
     <species>Iguana iguana</species>
     <type>Reptile</type>
-    <image>images/iguana.jpg</image>
+    <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTDQAUPZTwI8T0p6tH7CfH5XzIV-pYwxm6zg&amp;s</image>
     <description>A large, tree-dwelling herbivore found throughout Central and South America.</description>
   </animal>
+  <animal>
+    <name>Galápagos Tortoise</name>
+    <species>Chelonoidis nigra</species>
+    <type>Reptile</type>
+    <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzWRrrVY_Zbp18OgX5NiE-ZHN6YhI9C031lQ&amp;s</image>
+    <description>The world's largest tortoise that can live over 100 years.</description>
+  </animal>
+  <animal>
+    <name>Black Mamba</name>
+    <species>Dendroaspis polylepis</species>
+    <type>Reptile</type>
+    <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9EgousIfGR6lOAtP4uzcCliG70izuJdDJVQ&amp;s</image>
+    <description>Africa's longest venomous snake, capable of speeds up to 20 km/h.</description>
+  </animal>
+  <animal>
+    <name>American Alligator</name>
+    <species>Alligator mississippiensis</species>
+    <type>Reptile</type>
+    <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9N6irLhJVxc2nazseP2g4bj-3PESkHAhMvw&amp;s</image>
+    <description>A large crocodilian native to the southeastern United States.</description>
+  </animal>
+  <animal>
+    <name>Veiled Chameleon</name>
+    <species>Chamaeleo calyptratus</species>
+    <type>Reptile</type>
+    <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDAKH24Smh3E6v-UYvD8YfhYIiqzZ9twGn6Q&amp;s</image>
+    <description>Known for its color-changing ability and distinctive casque.</description>
+  </animal>
+  <animal>
+    <name>Gila Monster</name>
+    <species>Heloderma suspectum</species>
+    <type>Reptile</type>
+    <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDG34PIUlr6rqOqk3OF5azS-eFGA6SHmfJ9qnrOqdTfyOzfFvccDOSPIx5DFPmx8IoKFc&amp;usqp=CAU</image>
+    <description>One of only two venomous lizards in the world.</description>
+  </animal>
+  <animal>
+    <name>Reticulated Python</name>
+    <species>Malayopython reticulatus</species>
+    <type>Reptile</type>
+    <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCk6xeMstMM1wOyWeo2NSxomKoRrutAXivhQ&amp;s</image>
+    <description>The world's longest snake species, capable of reaching over 6 meters.</description>
+  </animal>
+  <animal>
+    <name>Leatherback Sea Turtle</name>
+    <species>Dermochelys coriacea</species>
+    <type>Reptile</type>
+    <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfYEnOaep0FxBBlbYJ-C5ZTq8e0u6CPCYkMQ&amp;s</image>
+    <description>The largest turtle species, distinguished by its leathery shell.</description>
+  </animal>
+  <animal>
+    <name>Frilled Lizard</name>
+    <species>Chlamydosaurus kingii</species>
+    <type>Reptile</type>
+    <image>https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Chlamydosaurus_kingii.jpg/960px-Chlamydosaurus_kingii.jpg</image>
+    <description>When threatened, it raises its spectacular frill to appear larger.</description>
+  </animal>
+  <animal>
+    <name>Tuataras</name>
+    <species>Sphenodon punctatus</species>
+    <type>Reptile</type>
+    <image>https://upload.wikimedia.org/wikipedia/commons/7/70/Tuatara_%285205719005%29.jpg</image>
+    <description>Ancient reptiles that have survived unchanged for 200 million years.</description>
+  </animal>
+  <animal>
+    <name>Nile Crocodile</name>
+    <species>Crocodylus niloticus</species>
+    <type>Reptile</type>
+    <image>https://www.monaconatureencyclopedia.com/wp-content/uploads/2008/08/jpg_Questo_Crocodylus_niloticus_sulle_rive_del_Nilo_a_Murchison_Falls_sembra_uscito_dalla_preistoria_c_Mazza.jpg</image>
+    <description>Africa's largest freshwater predator with immense bite force.</description>
+  </animal>
 
-  <!-- Amphibians -->
+  <!-- Amphibians (12) -->
   <animal>
     <name>Red-Eyed Tree Frog</name>
     <species>Agalychnis callidryas</species>
     <type>Amphibian</type>
-    <image>images/frog.jpg</image>
-    <description>Famous for its bulging red eyes and vibrant green body, it’s native to rainforests.</description>
+    <image>https://exo-terra.com/wp-content/uploads/A_callidryas_featured.jpg</image>
+    <description>Famous for its bulging red eyes and vibrant green body, it's native to rainforests.</description>
   </animal>
   <animal>
     <name>Axolotl</name>
     <species>Ambystoma mexicanum</species>
     <type>Amphibian</type>
-    <image>images/axolotl.jpg</image>
+    <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzN5yc0WrEb4OjukWHnGIiU9Yw9zH31tHcTA&amp;s</image>
     <description>A unique salamander that retains its larval features into adulthood.</description>
   </animal>
+  <animal>
+    <name>Poison Dart Frog</name>
+    <species>Dendrobatidae</species>
+    <type>Amphibian</type>
+    <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbekGB2lD9amo6jZDvjzuX5G1Fi_scQme4VA&amp;s</image>
+    <description>These brightly colored frogs secrete potent toxins through their skin.</description>
+  </animal>
+  <animal>
+    <name>Chinese Giant Salamander</name>
+    <species>Andrias davidianus</species>
+    <type>Amphibian</type>
+    <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn_lM6NHxusQMuQayv56pxOPyQgntBRiymGA&amp;s</image>
+    <description>The world's largest amphibian, reaching up to 1.8 meters in length.</description>
+  </animal>
+  <animal>
+    <name>Fire Salamander</name>
+    <species>Salamandra salamandra</species>
+    <type>Amphibian</type>
+    <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUS__zupxPaaL6BcnoZsUpaSUPjlRiIeutWA&amp;s</image>
+    <description>This striking black and yellow amphibian was once thought to be born from fire.</description>
+  </animal>
+  <animal>
+    <name>Surinam Toad</name>
+    <species>Pipa pipa</species>
+    <type>Amphibian</type>
+    <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHS4sroplRiWSlWnqZ-XTMDaSBiKGW0HI3g35_umjPaPe_bKzFS3n6UNsbUs2gh97R5-g&amp;usqp=CAU</image>
+    <description>Known for its extremely flat body and unique reproductive habits.</description>
+  </animal>
+  <animal>
+    <name>Japanese Giant Toad</name>
+    <species>Bufo japonicus</species>
+    <type>Amphibian</type>
+    <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeD1z5EPWnEAWaoAiGMeKt3P3uUJEZiqAw1A&amp;s</image>
+    <description>A large toad that plays an important role in Japanese folklore.</description>
+  </animal>
+  <animal>
+    <name>Mudpuppy</name>
+    <species>Necturus maculosus</species>
+    <type>Amphibian</type>
+    <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_3WuvT3mxFTobYBs8RgG7dl-DgXpr6-qgJA&amp;s</image>
+    <description>A permanently aquatic salamander with external gills.</description>
+  </animal>
+  <animal>
+    <name>African Bullfrog</name>
+    <species>Pyxicephalus adspersus</species>
+    <type>Amphibian</type>
+    <image>https://upload.wikimedia.org/wikipedia/commons/4/44/Pyxicephalus_adspersus%2C_Boston_Aquarium.jpg</image>
+    <description>One of the largest frogs that can grow up to 23 cm in length.</description>
+  </animal>
+  <animal>
+    <name>Hellbender</name>
+    <species>Cryptobranchus alleganiensis</species>
+    <type>Amphibian</type>
+    <image>https://images.squarespace-cdn.com/content/v1/5a271a80d7bdce2af0d48fc1/1514951119567-JEXFCLVK42W61JUL1XYP/David-Herasimtschuk-14.jpg?format=1000w</image>
+    <description>North America's largest aquatic salamander with a flattened body.</description>
+  </animal>
+  <animal>
+    <name>Glass Frog</name>
+    <species>Centrolenidae</species>
+    <type>Amphibian</type>
+    <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPP1znuUck5vAGpISI3pKeFIBP0ePAmp-54A&amp;s</image>
+    <description>Named for their translucent skin that reveals internal organs.</description>
+  </animal>
+  <animal>
+    <name>Alpine Newt</name>
+    <species>Ichthyosaura alpestris</species>
+    <type>Amphibian</type>
+    <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0j2lJu0rRAtrc6GHf6rIWU6RCLb-g7BOnVg&amp;s</image>
+    <description>A colorful newt species native to central and southern Europe.</description>
+  </animal>
 
-  <!-- Fish -->
+  <!-- Fish (12) -->
   <animal>
     <name>Clownfish</name>
     <species>Amphiprioninae</species>
     <type>Fish</type>
-    <image>images/clownfish.jpg</image>
+    <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6DHnOSxWwwm6EuVvHfOq4eM-2Mq-MdmDkhg&amp;s</image>
     <description>A colorful reef fish that forms symbiotic relationships with sea anemones.</description>
   </animal>
   <animal>
     <name>Great White Shark</name>
     <species>Carcharodon carcharias</species>
     <type>Fish</type>
-    <image>images/shark.jpg</image>
+    <image>https://upload.wikimedia.org/wikipedia/commons/5/56/White_shark.jpg</image>
     <description>A powerful ocean predator with a reputation that precedes it.</description>
   </animal>
+  <animal>
+    <name>Lionfish</name>
+    <species>Pterois</species>
+    <type>Fish</type>
+    <image>https://upload.wikimedia.org/wikipedia/commons/3/36/MC_Rotfeuerfisch.jpg</image>
+    <description>Venomous coral reef fish with striking striped fins.</description>
+  </animal>
+  <animal>
+    <name>Manta Ray</name>
+    <species>Mobula</species>
+    <type>Fish</type>
+    <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ86yMuF4uZ16-9zG1zMVDGSIDX9_gRb8QMoA&amp;s</image>
+    <description>Graceful filter feeders with the largest brain of all fish.</description>
+  </animal>
+  <animal>
+    <name>Electric Eel</name>
+    <species>Electrophorus electricus</species>
+    <type>Fish</type>
+    <image>https://www.monaconatureencyclopedia.com/wp-content/uploads/2020/06/6-Electrophorus-electricus.jpg</image>
+    <description>Capable of generating up to 600 volts of electricity for hunting.</description>
+  </animal>
+  <animal>
+    <name>Piranha</name>
+    <species>Pygocentrus nattereri</species>
+    <type>Fish</type>
+    <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRho5JUzWoD9fIvGBAIk-DTKrkJmFpPE6Tnuw&amp;s</image>
+    <description>Notorious for their sharp teeth and powerful bite.</description>
+  </animal>
+  <animal>
+    <name>Seahorse</name>
+    <species>Hippocampus</species>
+    <type>Fish</type>
+    <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuBhv79JLaaKgKVZTia9NnyNTAULy4gYQFsQ&amp;s</image>
+    <description>Unique fish where males carry the developing young.</description>
+  </animal>
+  <animal>
+    <name>Stonefish</name>
+    <species>Synanceia</species>
+    <type>Fish</type>
+    <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRrmsXXMwrcNVf-KH_yeQ1pBfetKrt4Nkg6g&amp;s</image>
+    <description>The world's most venomous fish, perfectly camouflaged as a rock.</description>
+  </animal>
+  <animal>
+    <name>Arapaima</name>
+    <species>Arapaima gigas</species>
+    <type>Fish</type>
+    <image>https://th-thumbnailer.cdn-si-edu.com/-Vww0fdFGBX7bX4ehAzNoLI7t7s=/1000x700/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/87/85/8785d719-c43a-4c68-882c-cc112da78392/20170609-113rp.jpg</image>
+    <description>One of the largest freshwater fish, capable of breathing air.</description>
+  </animal>
+  <animal>
+    <name>Clown Triggerfish</name>
+    <species>Balistoides conspicillum</species>
+    <type>Fish</type>
+    <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrIIHsqQHusxNaW0qcBpS13NdDeVvXuAUOJw&amp;s</image>
+    <description>Brightly colored reef fish with a distinctive pattern.</description>
+  </animal>
+  <animal>
+    <name>Whale Shark</name>
+    <species>Rhincodon typus</species>
+    <type>Fish</type>
+    <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3s42l1SCMk0nNB0MNuAi9ib58iESt-sCJoQ&amp;s</image>
+    <description>The largest fish species, a gentle giant that feeds on plankton.</description>
+  </animal>
+  <animal>
+    <name>Coelacanth</name>
+    <species>Latimeria</species>
+    <type>Fish</type>
+    <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-M_RN03bHyiAfVHGO1PZkoSr7E226EqhJnw&amp;s</image>
+    <description>A "living fossil" thought extinct until rediscovered in 1938.</description>
+  </animal>
 
-  <!-- Insects -->
+  <!-- Insects (12) -->
   <animal>
     <name>Monarch Butterfly</name>
     <species>Danaus plexippus</species>
     <type>Insect</type>
-    <image>images/monarch.jpg</image>
+    <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoyMNqjMxV0C_ZX7Yv-vumqqJYsXB18CllZg&amp;s</image>
     <description>Known for its epic migrations and bright orange wings.</description>
   </animal>
   <animal>
     <name>Atlas Beetle</name>
     <species>Chalcosoma atlas</species>
     <type>Insect</type>
-    <image>images/beetle.jpg</image>
+    <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQug50cjZZIG3dJCphWcWXI3dEdr2WQRSxppA&amp;s</image>
     <description>A large beetle from Southeast Asia, named after the mythical Titan Atlas.</description>
+  </animal>
+  <animal>
+    <name>Goliath Beetle</name>
+    <species>Goliathus</species>
+    <type>Insect</type>
+    <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQJNDynFzsl3aStE4BhCxvn4hGX99JrFlZmA&amp;s</image>
+    <description>One of the heaviest insects, with some adults reaching 100 grams.</description>
+  </animal>
+  <animal>
+    <name>Praying Mantis</name>
+    <species>Mantodea</species>
+    <type>Insect</type>
+    <image>https://a-z-animals.com/media/2021/12/Praying-Mantis-header.jpg</image>
+    <description>Predatory insects with excellent vision and lightning-fast reflexes.</description>
+  </animal>
+  <animal>
+    <name>Stick Insect</name>
+    <species>Phasmatodea</species>
+    <type>Insect</type>
+    <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY60pfceCWvfPA_ZuAQSZtV9GbqGzcYX9Ffg&amp;s</image>
+    <description>Masters of camouflage that resemble twigs or leaves.</description>
+  </animal>
+  <animal>
+    <name>Tarantula Hawk</name>
+    <species>Pepsis</species>
+    <type>Insect</type>
+    <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9JRpWlbCbqD7xYjiy8GVfjMGEU5-PJMA38w&amp;s</image>
+    <description>A wasp with one of the most painful stings in the insect world.</description>
+  </animal>
+  <animal>
+    <name>Blue Morpho Butterfly</name>
+    <species>Morpho</species>
+    <type>Insect</type>
+    <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1ZsaJQLavskhvMvnj8y1UDH7OkoUrq2j-fA&amp;s</image>
+    <description>Brilliant blue butterflies from Central and South America.</description>
+  </animal>
+  <animal>
+    <name>Hercules Beetle</name>
+    <species>Dynastes hercules</species>
+    <type>Insect</type>
+    <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4zqsOj6ml7O0IU7QzsbgrcMW9ZVndB8xc6g&amp;s</image>
+    <description>One of the largest beetles with impressive horns.</description>
+  </animal>
+  <animal>
+    <name>Leafcutter Ant</name>
+    <species>Atta</species>
+    <type>Insect</type>
+    <image>https://cdn.britannica.com/21/188721-050-3D55AD79/leafcutter-ant-species-fungus-substrate-Atta-cephalotes.jpg</image>
+    <description>Highly social ants that cultivate fungus gardens.</description>
+  </animal>
+  <animal>
+    <name>Giant Water Bug</name>
+    <species>Belostomatidae</species>
+    <type>Insect</type>
+    <image>https://media.australian.museum/media/dd/images/Giant_Water_Bug.width-1200.69f3206.jpg</image>
+    <description>Large predatory insects that can deliver a painful bite.</description>
+  </animal>
+  <animal>
+    <name>Atlas Moth</name>
+    <species>Attacus atlas</species>
+    <type>Insect</type>
+    <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUlLjDujXgJRu9EuE2bVe8t9WyHLZ4DVPu1A&amp;s</image>
+    <description>One of the largest moths with a wingspan up to 30 cm.</description>
+  </animal>
+  <animal>
+    <name>Bombardier Beetle</name>
+    <species>Brachinini</species>
+    <type>Insect</type>
+    <image>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdIAD3MpfCeQQQKHYgY2YQqDxR2bYZ2ALS2g&amp;s</image>
+    <description>Can shoot a boiling chemical spray from its abdomen.</description>
   </animal>
 </zoo>
