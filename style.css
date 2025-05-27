@@ -131,28 +131,6 @@ nav a:active {
     font-size: 0.9em;
   }
   
-  .hero {
-    text-align: center;
-    padding: 60px 20px;
-    background: linear-gradient(to right, #48a999aa, #50c2baaa);
-    border-radius: 20px;
-    color: white;
-    margin-bottom: 30px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  }
-  
-  .intro {
-    text-align: center;
-    margin-bottom: 40px;
-  }
-  
-  .categories {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-  }
-  
   .category-card {
     background-color: rgba(72, 169, 153, 0.15);
     backdrop-filter: blur(6px);
@@ -413,3 +391,249 @@ nav a:active {
   padding: 20px;
 }
 
+/* New Hero Section Styles */
+.hero {
+  position: relative;
+  background: url('https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL2F4b2xvdGwxLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6ODI4fX19') center/cover no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+  border-radius: 16px;
+  margin: 20px auto;
+  max-width: 1200px;
+}
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-text {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Button Styles (new) */
+.btn-primary {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #48a999;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  border: 2px solid #48a999;
+}
+
+.btn-primary:hover {
+  background-color: #3f9488;
+  transform: translateY(-2px);
+}
+
+
+.btn-small {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #48a999;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.btn-small:hover {
+  background-color: #3f9488;
+  transform: translateY(-2px);
+}
+
+/* Featured Animals Section (new) */
+.featured-section {
+  padding: 60px 20px;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-intro {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.animal-showcase {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.animal-card {
+  background: white;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+
+.animal-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.animal-card h3 {
+  margin: 15px 0 10px;
+  color: #2e5c57;
+}
+
+.animal-card p {
+  padding: 0 20px;
+  color: #666;
+  margin-bottom: 20px;
+  font-size: 0.95rem;
+}
+
+.center-button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Experiences Section (new) */
+.experiences-section {
+  padding: 60px 20px;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.alt-bg {
+  background-color: #f3f7f6;
+}
+
+.experience-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.experience-card {
+  background: white;
+  padding: 30px 20px;
+  border-radius: 16px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+
+.experience-card h3 {
+  color: #2e5c57;
+  margin-bottom: 10px;
+}
+
+.experience-card p {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+/* Conservation Section (new) */
+.conservation-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+.conservation-content {
+  flex: 1;
+  min-width: 300px;
+  padding: 20px;
+}
+
+.conservation-video {
+  flex: 1;
+  min-width: 300px;
+}
+
+.conservation-video iframe {
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.conservation-stats {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.stat-item {
+  text-align: center;
+  flex: 1;
+  min-width: 100px;
+}
+
+.stat-number {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #48a999;
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Plan Your Visit Section (new) */
+.visit-section {
+  padding: 60px 20px;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.visit-options {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin: 40px 0;
+}
+
+.visit-card {
+  background: white;
+  padding: 30px 20px;
+  border-radius: 16px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.visit-card h3 {
+  color: #2e5c57;
+  margin-bottom: 15px;
+}
+
+.visit-card p {
+  color: #666;
+  font-size: 0.95rem;
+  margin-bottom: 15px;
+}
