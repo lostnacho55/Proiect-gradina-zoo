@@ -24,7 +24,7 @@ function displayAnimals(xml) {
 
     const card = document.createElement("div");
     card.classList.add("animal-card");
-    card.setAttribute("data-type", type); // For filtering
+    card.setAttribute("data-type", type);
 
     card.innerHTML = `
       <img src="${image}" alt="${name}">
@@ -42,9 +42,9 @@ function setupFilters() {
 
   filterButtons.forEach((btn) => {
     btn.addEventListener("click", () => {
-      // Remove "active" from all buttons
+
       filterButtons.forEach((b) => b.classList.remove("active"));
-      // Add to clicked one
+
       btn.classList.add("active");
 
       const type = btn.getAttribute("data-type");
@@ -53,7 +53,7 @@ function setupFilters() {
       animals.forEach((card) => {
         const cardType = card.getAttribute("data-type");
         if (type === "All" || cardType === type) {
-          card.style.display = "block"; // Changed from "flex" to "block" to work with grid
+          card.style.display = "block";
         } else {
           card.style.display = "none";
         }

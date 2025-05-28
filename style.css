@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
-/* Basic reset */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
-  /* General layout */
   body {
     background: linear-gradient(to right, #dfe9f3, #ffffff);
     font-family: Arial, sans-serif;
@@ -31,21 +30,21 @@
     font-size: 1.8rem;
     color: white;
   }
-  /* Header and nav */
+
   header {
-    position: relative; /* Required for z-index */
-    z-index: 1000; /* Keep dropdown above everything */
-    background-color: rgba(72, 169, 153, 0.7);; /* translucent white */
-    backdrop-filter: blur(10px); /* glass effect */
+    position: relative;
+    z-index: 1000;
+    background-color: rgba(72, 169, 153, 0.7);;
+    backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px); /* Safari support */
     padding: 10px 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-radius: 16px; /* rounded corners */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* soft shadow */
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     max-width: 1200px;
-    margin: 20px auto; /* centered with space above */
+    margin: 20px auto;
   }
 
 
@@ -60,16 +59,15 @@ nav a {
 }
   
 nav a:hover {
-  background-color: rgba(255, 255, 255, 0.2); /* frosted hover effect */
+  background-color: rgba(255, 255, 255, 0.2);
   text-decoration: none;
   transform: scale(1.05);
 }
 
 nav a:active {
-  transform: scale(0.98); /* button press feel */
+  transform: scale(0.98);
 }
 
-/* Dropdown container */
 .dropdown {
   position: relative;
   display: inline-block;
@@ -117,41 +115,23 @@ nav a:active {
   display: block;
 }
 
-  /* Main content */
   main {
     max-width: 800px;
     margin: 0 auto;
   }
   
-  /* Footer */
   footer {
     margin-top: 40px;
     text-align: center;
     color: #888;
     font-size: 0.9em;
   }
-  
-  .category-card {
-    background-color: rgba(72, 169, 153, 0.15);
-    backdrop-filter: blur(6px);
-    padding: 20px 30px;
-    border-radius: 16px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    font-weight: bold;
-    font-size: 1.2rem;
-    cursor: pointer;
-    transition: transform 0.2s ease;
-  }
-  
-  .category-card:hover {
-    transform: scale(1.05);
-  }
 
   .about-section {
-  position: relative; /* If not already positioned */
+  position: relative;
   z-index: 1; 
   width: 100%;
-  max-width: 1200px; /* Wider but still centered */
+  max-width: 1200px;
   margin: 40px auto;
   background: rgba(255, 255, 255, 0.6);
   backdrop-filter: blur(6px);
@@ -241,10 +221,6 @@ nav a:active {
   color: white;
 }
 
-.hours-table tr:last-child td {
-  border-bottom: none;
-}
-
 .about-image {
   display: block;
   margin: 20px auto;
@@ -255,7 +231,6 @@ nav a:active {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-/* Partnership Page */
 .partnership-section {
   padding: 50px 20px;
   text-align: center;
@@ -297,10 +272,6 @@ nav a:active {
   transition: transform 0.3s ease;
 }
 
-.logo-grid img:hover {
-  transform: scale(1.05);
-}
-
 .animal-catalog {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -325,7 +296,6 @@ nav a:active {
   margin-bottom: 10px;
 }
 
-/* Filter Menu */
 .animal-filter {
   display: flex;
   flex-wrap: wrap;
@@ -353,7 +323,6 @@ nav a:active {
 
 .filter-btn:hover {
   background-color: rgba(0, 0, 0, 0.1);
-  transform: translateY(-1px);
 }
 
 .filter-btn.active {
@@ -370,7 +339,6 @@ nav a:active {
   padding: 20px;
 }
 
-/* New Hero Section Styles */
 .hero {
   position: relative;
   background: url('https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL2F4b2xvdGwxLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6ODI4fX19') center/cover no-repeat;
@@ -406,7 +374,6 @@ nav a:active {
   flex-wrap: wrap;
 }
 
-/* Button Styles (new) */
 .btn-primary {
   display: inline-block;
   padding: 12px 24px;
@@ -441,7 +408,6 @@ nav a:active {
   transform: translateY(-2px);
 }
 
-/* Featured Animals Section (new) */
 .featured-section {
   padding: 60px 20px;
   text-align: center;
@@ -494,7 +460,6 @@ nav a:active {
   margin-top: 20px;
 }
 
-/* Experiences Section (new) */
 .experiences-section {
   padding: 60px 20px;
   text-align: center;
@@ -532,7 +497,6 @@ nav a:active {
   font-size: 0.95rem;
 }
 
-/* Conservation Section (new) */
 .conservation-section {
   display: flex;
   flex-wrap: wrap;
@@ -584,7 +548,6 @@ nav a:active {
   color: #666;
 }
 
-/* Plan Your Visit Section (new) */
 .visit-section {
   padding: 60px 20px;
   text-align: center;
